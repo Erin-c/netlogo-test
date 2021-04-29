@@ -1,0 +1,74 @@
+{   
+    "kind": "categoryToolbox",
+    "contents": [
+        {
+            "kind": "category",
+            "name": "NetLogo",
+            "colour": "#663366",
+            "contents": [
+                {
+                    "kind": "block",
+                    "type": "setup"
+                },
+                {
+                    "kind": "block",
+                    "type": "go"
+                },
+                {
+                    "kind": "block",
+                    "type": "mouse_events"
+                }
+            ]
+        },
+        {
+            "kind": "category",
+            "name": "Logic",
+            "colour": "#00836B",
+            "contents": [
+                {
+                    "kind": "block",
+                    "type": "controls_if"
+                },
+                {
+                    "kind":"block",
+                    "type": "logic_compare"
+                },
+                {
+                    "kind": "block",
+                    "type": "logic_operation"
+                },
+                {
+                    "kind": "block",
+                    "type": "logic_negate"
+                },
+                {
+                    "kind": "block",
+                    "type": "logic_boolean"
+                }
+            ]
+        },
+        {
+            "kind": "category",
+            "name": "Values",
+            "colour": "#0480B7",
+            "contents": [
+                {
+                    "kind": "block",
+                    "type": "math_number"
+                },
+                {
+                    "kind": "block",
+                    "type": "text"
+                },
+                {
+                    "kind": "block",
+                    "type": "math_random_int"
+                },
+                {
+                    "kind": "block",
+                    "type": "text_print"
+                }
+            ]
+        }
+    ]
+}
